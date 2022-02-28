@@ -1,0 +1,51 @@
+@import '~antd/es/style/themes/default.less';
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: @screen-sm) {
+    align-items: stretch;
+  }
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  padding: 10px;
+  margin-bottom: 20px;
+
+  background: #1895bb;
+  background: linear-gradient(50deg, #1895bb 0%, #14cfbd 100%);
+
+  > .logo {
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    > h1 {
+      color: white;
+    }
+  }
+}
+
+.language {
+  color: white;
+}
+
+.form {
+  width: 450px;
+  margin: 10px;
+
+  @media screen and (max-width: @screen-sm) {
+    width: 100%;
+  }
+}

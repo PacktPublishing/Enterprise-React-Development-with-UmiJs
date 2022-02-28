@@ -1,0 +1,55 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi generate tmp",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "test": "umi-test --runInBand",
+    "test:coverage": "umi-test --coverage"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.0.2",
+    "@ant-design/pro-descriptions": "1.10.5",
+    "@ant-design/pro-layout": "^6.5.0",
+    "@ant-design/pro-table": "^2.61.9",
+    "antd": "^4.0.0",
+    "bizcharts": "^4.1.15",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "umi": "^3.5.20"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/faker": "^5.5.9",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.5.20",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "faker": "5.5.3",
+    "lint-staged": "^10.0.7",
+    "prettier": "^2.2.0",
+    "puppeteer": "^13.4.0",
+    "typescript": "^4.1.2",
+    "yorkie": "^2.0.0"
+  }
+}

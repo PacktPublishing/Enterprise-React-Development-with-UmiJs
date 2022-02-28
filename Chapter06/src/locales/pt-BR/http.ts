@@ -1,0 +1,15 @@
+export default {
+  400: 'A solicitação falhou.',
+  401: 'Credenciais inválidas, você não está autorizado.',
+  403: 'Não é possível realizar esta operação.',
+  404: 'Recurso não encontrado.',
+  405: 'Operação não permitida.',
+  406: 'A operação não pode ser concluída.',
+  410: 'O serviço não está mais disponível',
+  422: 'Não foi possível processar sua solicitação.',
+  500: 'Erro interno, entre em contato com o administrador.',
+  502: 'Falha na comunicação com o serviço interno.',
+  503: 'Serviço temporariamente indisponível.',
+  504: 'A espera máxima por uma resposta expirou.',
+  empty: 'Falha ao conectar aos serviços',
+};

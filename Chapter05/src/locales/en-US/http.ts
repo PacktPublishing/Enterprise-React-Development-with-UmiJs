@@ -1,0 +1,15 @@
+export default {
+  400: 'The request failed.',
+  401: 'Invalid credentials, you are not authenticated.',
+  403: 'You cannot perform this operation.',
+  404: 'Resource not found.',
+  405: 'Operation not allowed.',
+  406: 'The operation cannot be completed.',
+  410: 'The service is no longer available',
+  422: 'Could not process your request.',
+  500: 'Internal error, contact administrator.',
+  502: 'Internal service communication failed.',
+  503: 'Service temporarily unavailable.',
+  504: 'The maximum wait for an answer has expired.',
+  empty: 'Failed to connect to services',
+};
