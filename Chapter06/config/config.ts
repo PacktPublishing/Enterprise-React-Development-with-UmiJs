@@ -2,9 +2,6 @@ import { defineConfig } from 'umi';
 import routes from './routes';
 
 export default defineConfig({
-  define: {
-    API_HOST: process.env.API_HOST,
-  },
   layout: {
     navTheme: 'light',
     layout: 'mix',
