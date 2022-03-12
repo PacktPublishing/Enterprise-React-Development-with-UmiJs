@@ -1,0 +1,20 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  :global {
+    #components-form-demo-normal-login .login-form {
+      width: 450px;
+      margin: 5%;
+
+      @media screen and (max-width: @screen-sm) {
+        width: 90%;
+      }
+    }
+    #components-form-demo-normal-login .login-form-forgot {
+      float: right;
+    }
+    #components-form-demo-normal-login .login-form-button {
+      width: 100%;
+    }
+  }
+}
