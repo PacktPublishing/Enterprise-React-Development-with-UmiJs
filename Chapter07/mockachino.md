@@ -88,7 +88,7 @@
 
 6. **GET - Opportunity history**
 
-- **HTTP Method**: PUT
+- **HTTP Method**: GET
 - **HTTP Path**: api/opportunity/history?current=1&pageSize=5&customerId=1
 - **HTTP Response Body**:
 
@@ -121,7 +121,7 @@
 }
 ```
 
-7. **PUT - Upadate customer**
+7. **PUT - Update customer**
 
 - **HTTP Method**: PUT
 - **HTTP Path**: api/customer
@@ -133,7 +133,7 @@
 }
 ```
 
-8. **PUT - Upadate opportunity**
+8. **PUT - Update opportunity**
 
 - **HTTP Method**: PUT
 - **HTTP Path**: api/opportunity
