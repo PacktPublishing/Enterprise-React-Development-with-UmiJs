@@ -20,7 +20,7 @@ export default {
 
   'chart.top': 'Top opportunities',
   'chart.leads': 'Leads by source',
-  'chart.month': 'Oppotunities Won/Lost by month',
+  'chart.month': 'Opportunities Won/Lost by month',
 
   'step.qualify': 'Qualify',
   'step.develop': 'Develop',
