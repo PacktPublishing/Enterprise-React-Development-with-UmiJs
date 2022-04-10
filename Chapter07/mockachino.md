@@ -166,7 +166,7 @@
 ```json
 {
   "company": "Umi Group",
-  "name": "Marry Doe",
+  "name": "Mary Doe",
   "role": {
     "id": 0,
     "title": "Administrator"
@@ -185,7 +185,7 @@
 ```json
 {
   "company": "Umi Group",
-  "name": "Marry Doe",
+  "name": "Mary Doe",
   "role": {
     "id": 0,
     "title": "Administrator"

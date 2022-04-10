@@ -27,10 +27,10 @@ const login = (req: Request, res: Response) => {
     };
 
     res.json(user.currentUser);
-  } else if (email == 'marry@doe.com' && password == 'admin') {
+  } else if (email == 'mary@doe.com' && password == 'admin') {
     user.currentUser = {
       id: 1,
-      name: 'Marry Doe',
+      name: 'Mary Doe',
       company: 'Umi Group',
       role: {
         id: 0,
