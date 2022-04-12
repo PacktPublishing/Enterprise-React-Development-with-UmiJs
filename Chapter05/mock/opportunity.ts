@@ -32,7 +32,7 @@ for (let index = 0; index < 30; index++) {
   });
 }
 
-const listOppotunities = (req: Request, res: Response) => {
+const listOpportunities = (req: Request, res: Response) => {
   const { slice } = req.query;
 
   res.send({
@@ -48,7 +48,7 @@ const getOpportunity = (req: Request, res: Response) => {
 };
 
 export default {
-  '/api/opportunity/list': listOppotunities,
+  '/api/opportunity/list': listOpportunities,
 
   '/api/opportunity': getOpportunity,
 
