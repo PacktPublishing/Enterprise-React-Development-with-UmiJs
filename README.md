@@ -9,7 +9,7 @@ This is the code repository for [Enterprise React Development with UmiJS](https:
 ## What is this book about?
 UmiJS is Ant Financial's underlying frontend development framework, an open-source project for developing enterprise-class frontend applications. In this book, you’ll get hands-on with single-page application development using UmiJS. By following practical step-by-step examples, you'll develop essential skills to build and publish your apps and create a modern user experience with responsive interfaces.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features: 
 * Learn how to improve code quality with formatting tools
 * Secure your application and handle errors in HTTP requests using UmiJS
 * Configure and use UmiJS for rapid single-page application development
