@@ -15,7 +15,8 @@ This book covers the following exciting features: <First 5 What you'll learn poi
 * Configure and use UmiJS for rapid single-page application development
 * Apply what you've learned when building your portfolio and stand out in the market
 * Use the visual option Umi UI to build and add components to the project
-* If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1803238968) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
