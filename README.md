@@ -44,7 +44,7 @@ export default function Page() {
 **Following is what you need for this book:**
 This book is for React developers who want to develop enterprise-class frontend applications using UmiJS and its main plugins. Basic knowledge of React and JavaScript is assumed but no knowledge of UmiJS is needed.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-7).
 
 ### Software and Hardware List
 
