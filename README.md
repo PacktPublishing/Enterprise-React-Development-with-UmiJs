@@ -67,3 +67,7 @@ With the following software and hardware list you can run all code files present
 has a background in systems analysis and development, his passion is to help customers and the community solve problems. Over the past few years, he has mainly worked with digital products and innovation, delivering the best user experience with modern web applications.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803238968">https://packt.link/free-ebook/9781803238968 </a> </p>
