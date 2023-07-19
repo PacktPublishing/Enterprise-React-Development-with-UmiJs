@@ -43,6 +43,11 @@ export default function Page() {
   );
 }
 ```
+## Errata
+
+* Chapter 7: Create a mock Server with Mockachino , Lines 186-195.
+  mockachino.md file is updated on github.
+  
 
 **Following is what you need for this book:**
 This book is for React developers who want to develop enterprise-class frontend applications using UmiJS and its main plugins. Basic knowledge of React and JavaScript is assumed but no knowledge of UmiJS is needed.
