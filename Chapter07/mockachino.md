@@ -184,14 +184,13 @@
 
 ```json
 {
-  "company": "Umi Group",
-  "name": "Mary Doe",
-  "role": {
-    "id": 0,
-    "title": "Administrator"
-  },
-  "isLoggedIn": "true",
-  "id": "1"
+  "data": [
+    { "name": "Handcrafted Cotton Table", "revenue": 15000 },
+    { "name": "Handcrafted Granite Table", "revenue": 30000 },
+    { "name": "Handcrafted Concrete Tuna", "revenue": 40000 },
+    { "name": "Refined Plastic Ball", "revenue": 50000 }
+  ],
+  "success": true
 }
 ```
 
